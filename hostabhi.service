@@ -1,0 +1,21 @@
+[Unit]
+Description=DarkBits Hosting Bot
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=will
+WorkingDirectory=/home/will/tgposter
+ExecStart=/home/will/tgposter/venv/bin/python3 /home/will/tgposter/HOSTABHI.py
+Restart=always
+RestartSec=10
+KillSignal=SIGTERM
+TimeoutStopSec=20
+StandardOutput=append:/home/will/tgposter/hostabhi.log
+StandardError=append:/home/will/tgposter/hostabhi.log
+Environment=PORT=8080
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+venv/
+env/
+*.db
+*.sqlite
+*.sqlite3
+inf/
+upload_bots/
+clones/
+clones2/
+*.log
+.env
+.DS_Store
+Thumbs.db
+*.bak*
+*~
