@@ -557,63 +557,97 @@ Expected: active (running) — auto-recovery worked.
 </div>
 🔒 Never commit real tokens to this repository
 
-🌐 Use environment variables for production: BOT_TOKEN, OWNER_ID
+<ul>
+<li>🌐 Use environment variables for production: <code>BOT_TOKEN</code>, <code>OWNER_ID</code></li>
+<li>🕵️ Keep the repository private if you can't remove hardcoded values</li>
+<li>💾 Regular backup of <code>inf/bot_data.db</code> is recommended</li>
+<li>🔄 Rotate tokens every 90 days</li>
+<li>🛡️ Only run this bot on a trusted VPS</li>
+</ul>
 
-🕵️ Keep the repository private if you can't remove hardcoded values
+<br />
 
-💾 Regular backup of inf/bot_data.db is recommended
+---
 
-🔄 Rotate tokens every 90 days
-
-🛡️ Only run this bot on a trusted VPS
+<h2>📊 Repository Stats</h2>
 
 <div align="center">
-📊 Repository Stats
 
-<img src="https://github-readme-stats.vercel.app/api?username=meltingYoureEgo&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22C55E&icon_color=22C55E&text_color=c9d1d9" height="180"/> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=meltingYoureEgo&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22C55E&text_color=c9d1d9" height="180"/>
+<img src="https://github-readme-stats.vercel.app/api?username=meltingYoureEgo&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22C55E&icon_color=22C55E&text_color=c9d1d9" height="180" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=meltingYoureEgo&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22C55E&text_color=c9d1d9" height="180" />
 
+<br /><br />
 
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=meltingYoureEgo&theme=tokyonight&hide_border=true&background=0D1117&ring=22C55E&fire=22C55E&currStreakLabel=22C55E" width="48%" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=meltingYoureEgo&theme=tokyonight&hide_border=true&background=0D1117&ring=22C55E&fire=22C55E&currStreakLabel=22C55E" width="48%"/>
+<br /><br />
 
-
-
-<img src="https://github-profile-trophy.vercel.app/?username=meltingYoureEgo&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" width="90%"/></div>
-<div align="center">
-📝 License
-
-<a href="LICENSE"> <img src="https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge&logo=opensourceinitiative&logoColor=white"/> </a>
-
-
-
-This project is licensed under the MIT License — see the LICENSE file for details.
+<img src="https://github-profile-trophy.vercel.app/?username=meltingYoureEgo&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" width="90%" />
 
 </div>
+
+<br />
+
+---
+
+<h2>📝 License</h2>
+
 <div align="center">
-👤 Author
 
-<img src="https://avatars.githubusercontent.com/meltingYoureEgo" width="120" style="border-radius:50%"/>
-meltingYoureEgo
-Software Developer · Cybersecurity Enthusiast · Security Researcher
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge&logo=opensourceinitiative&logoColor=white" /></a>
 
+<br /><br />
 
-https://img.shields.io/badge/GitHub-@meltingYoureEgo-181717?style=for-the-badge&logo=github&logoColor=white
-https://img.shields.io/badge/Telegram-@meltingYoureEgo-26A5E4?style=for-the-badge&logo=telegram&logoColor=white
+<p>This project is licensed under the <b>MIT License</b> — see the <a href="LICENSE">LICENSE</a> file for details.</p>
 
 </div>
+
+<br />
+
+---
+
+<h2>👤 Author</h2>
+
 <div align="center">
-⭐ Support
 
-If this project helped you, please consider giving it a star ⭐
+<img src="https://avatars.githubusercontent.com/meltingYoureEgo" width="120" style="border-radius:50%" />
 
-It means a lot and helps others find this project.
+<h3>meltingYoureEgo</h3>
 
+<p><i>Software Developer · Cybersecurity Enthusiast · Security Researcher</i></p>
 
-https://img.shields.io/badge/%E2%AD%90_Star_this_repo-FFD700?style=for-the-badge
-https://img.shields.io/badge/%F0%9F%8D%B4_Fork_this_repo-8B5CF6?style=for-the-badge
+<a href="https://github.com/meltingYoureEgo"><img src="https://img.shields.io/badge/GitHub-@meltingYoureEgo-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+<a href="https://t.me/meltingYoureEgo"><img src="https://img.shields.io/badge/Telegram-@meltingYoureEgo-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" /></a>
 
 </div>
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%"><div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=140&section=footer&text=Made%20with%20%E2%9D%A4%EF%B8%8F%20by%20meltingYoureEgo&fontSize=24&fontColor=ffffff&animation=twinkling&fontAlignY=70" width="100%"/>
-Built with ❤️ using pyTelegramBotAPI · Flask · SQLite · Systemd
 
-</div> ```
+<br />
+
+---
+
+<h2>⭐ Support</h2>
+
+<div align="center">
+
+<p>If this project helped you, please consider giving it a <b>star</b>.</p>
+
+<p>It means a lot and helps others find this project.</p>
+
+<br />
+
+<a href="https://github.com/meltingYoureEgo/HOSTING-Source-/stargazers"><img src="https://img.shields.io/badge/Star_this_repo-FFD700?style=for-the-badge" /></a>
+<a href="https://github.com/meltingYoureEgo/HOSTING-Source-/fork"><img src="https://img.shields.io/badge/Fork_this_repo-8B5CF6?style=for-the-badge" /></a>
+
+</div>
+
+<br />
+
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%" />
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=140&section=footer&text=Made%20with%20%E2%9D%A4%EF%B8%8F%20by%20meltingYoureEgo&fontSize=22&fontColor=ffffff&animation=twinkling&fontAlignY=70" width="100%" />
+
+<b>Built with ❤️ using pyTelegramBotAPI · Flask · SQLite · Systemd</b>
+
+</div>
